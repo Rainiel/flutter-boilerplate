@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final firebaseAuth = context.read(firebaseAuthProvider);
     return MaterialApp(
+      title: 'Rainiel',
       theme: ThemeData(primarySwatch: Colors.indigo),
       debugShowCheckedModeBanner: false,
       home: AuthWidget(
